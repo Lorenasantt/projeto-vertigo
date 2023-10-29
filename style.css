@@ -7,6 +7,11 @@
 }
 
 header{
-    background-image: url(./imagens/imagens/bg-google.png);
+    background-image: url(./imagens/bg-google.png);
     background-size: cover;
+    height: 8.375rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
