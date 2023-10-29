@@ -11,11 +11,12 @@
     --gray-600: #475569;
     --gray-400: #94a3b8;
     --gray-200: #e2e8f0;
+    --white: #fff;
     --purple: #7c3aeb;
 }
 
 header{
-    background-image: url(./imagens/bg-google.png);
+    background-image: url(./imagens/imagens/bg-google.png);
     background-size: cover;
     height: 8.375rem;
 
@@ -94,4 +95,17 @@ h1{
 
 .login a :hover{
     text-decoration: underline;
+}
+
+.login button{
+    margin-top: 2rem;
+    padding-block: 1rem;
+    width: 100%;
+    background: var(--purple);
+    border: none;
+    border-radius: 0.25rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
 }
