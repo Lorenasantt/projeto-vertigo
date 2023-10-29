@@ -16,7 +16,7 @@
 }
 
 header{
-    background-image: url(./imagens/imagens/bg-mobile.png);
+    background-image: url(imagens/bg-mobile.png);
     background-size: cover;
     height: 8.375rem;
 
@@ -121,7 +121,15 @@ h1{
     font-size: 1rem;
 }
 
-@media(min-width:100px) {
+.bg-desktop{
+    display: none;
+}
+
+@media(min-width:1000px) {
+    body{
+        display: flex;
+    }
+
     header {
         background: none;
         justify-content: flex-start;
@@ -135,4 +143,14 @@ h1{
     main{
         padding-inline: 7rem;
     }
+
+    .conteudo{
+        width: 100%;
+    }
+
+    .bg-desktop{
+        display: block;
+        width: 100%;
+    }
 }
+
