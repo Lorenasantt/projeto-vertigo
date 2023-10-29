@@ -16,7 +16,7 @@
 }
 
 header{
-    background-image: url(./imagens/imagens/bg-google.png);
+    background-image: url(./imagens/imagens/bg-mobile.png);
     background-size: cover;
     height: 8.375rem;
 
@@ -119,4 +119,20 @@ h1{
 .login > p a {
     font-weight: 700;
     font-size: 1rem;
+}
+
+@media(min-width:100px) {
+    header {
+        background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+
+    header img {
+        width: 10rem;
+    }
+
+    main{
+        padding-inline: 7rem;
+    }
 }
